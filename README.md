@@ -2,7 +2,7 @@
 
 ## Demo
 
-https://next-with-apollo.now.sh
+https://next-with-apollo-airbnb-auth0-graphcool.now.sh/
 
 ## How to use
 

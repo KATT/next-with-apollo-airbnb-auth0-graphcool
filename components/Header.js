@@ -22,7 +22,7 @@ class Header extends Component { // eslint-disable-line react/prefer-stateless-f
   componentDidMount() {
     const lock = new Auth0Lock(process.env.AUTH0_CLIENT_ID, process.env.AUTH0_DOMAIN, {
       auth: {
-        redirectUrl: `http://localhost:3000/login?r=${this.props.pathname}`,
+        redirectUrl: `${location.origin}/login?r=${this.props.pathname}`,
         responseType: 'token',
       },
     });

@@ -6,7 +6,7 @@ import Loading from '../Loading';
 function PostList({ data, loadMorePosts }) { // eslint-disable-line react/prop-types
   const { allPosts, loading, _allPostsMeta } = data;
 
-  if (loading && allPosts.length === 0) {
+  if (!allPosts || !allPosts.length) {
     return <Loading />;
   }
 

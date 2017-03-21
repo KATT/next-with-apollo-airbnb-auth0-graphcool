@@ -13,6 +13,7 @@ Server-side rendered & authed requests using auth0 & graph.cool. Project based o
 * [airbnb linting](https://github.com/airbnb/javascript)
 * [env-cmd](https://github.com/toddbluhm/env-cmd) for serving env vars
 * [redis](https://redis.io) using [redislabs](https://redislabs.com) for session storage
+* [plop](https://github.com/amwmedia/plop) for scaffolding
 
 ## Demo
 

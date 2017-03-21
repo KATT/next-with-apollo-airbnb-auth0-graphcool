@@ -7,7 +7,7 @@ const FRONTEND_ENV_KEYS = [
   'NODE_ENV',
   'AUTH0_CLIENT_ID',
   'AUTH0_DOMAIN',
-  'GRAPHQL_URI',
+  'GRAPHCOOL_PROJECT_ID',
 ];
 
 const envPlugin = FRONTEND_ENV_KEYS.reduce((result, key) => (

@@ -1,6 +1,7 @@
 import { gql, graphql } from 'react-apollo';
 
 import PostList from './PostList';
+import postListwithSubscription from './postListwithSubscription';
 
 const POSTS_PER_PAGE = 10;
 
@@ -48,4 +49,4 @@ export default graphql(allPosts, {
       });
     },
   }),
-})(PostList);
+})(postListwithSubscription(PostList));
